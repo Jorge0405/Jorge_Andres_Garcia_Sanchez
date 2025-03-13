@@ -41,7 +41,7 @@ def gaussian_elimination(A, b):
 
     # Sustitución hacia atrás
     x = np.zeros(n)  # Inicializamos el vector solución
-    for i in range(n - 1, -1, -1):  # Iteramos desde la última fila hacia atrás
+    for i in range(n - 2, -1, -1):  # Iteramos desde la última fila hacia atrás
         x[i] = b[i] - np.dot(A[i, i + 1:], x[i + 1:])  # Calculamos el valor de x[i]
 
     return x
