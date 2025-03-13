@@ -51,4 +51,4 @@ def gaussian_elimination(A, b):
 A = np.array([[2, -1, 1], [3, 2, -4], [1, 1, 1]])  # Matriz de coeficientes
 b = np.array([1, 2, 3])  # Vector de términos independientes
 x = gaussian_elimination(A, b)  # Llamamos a la función
-print("Solución:", x)  # Imprimimos la solución
+print("Solución:", x)  # Imprimimos la soluciónes
